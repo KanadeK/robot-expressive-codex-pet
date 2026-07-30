@@ -58,11 +58,11 @@ jobs:
           coverage run -m unittest discover -s tests -v
           coverage report
 
+      - name: Run strict release gate on committed inputs
+        run: python scripts/release_check.py --json --strict
+
       - name: Build verified release
         run: python scripts/build_release.py --json
-
-      - name: Run strict release gate
-        run: python scripts/release_check.py --json --strict
 
       - name: Create GitHub Release
         env:

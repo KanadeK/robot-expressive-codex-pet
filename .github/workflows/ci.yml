@@ -106,14 +106,14 @@ jobs:
           coverage report
           coverage xml
 
+      - name: Run strict release gate on committed inputs
+        run: python scripts/release_check.py --json --strict
+
       - name: Build release assets
         run: python scripts/build_release.py --json
 
       - name: Build Pages site
         run: python scripts/build_site.py --json
-
-      - name: Run strict release gate
-        run: python scripts/release_check.py --json --strict
 
       - name: Upload verified build
         if: matrix.python-version == '3.13'
