@@ -1,0 +1,921 @@
+{
+  "atlas": {
+    "height": 2288,
+    "mode": "RGBA",
+    "path": "pet/spritesheet.webp",
+    "populatedCells": 73,
+    "sha256": "140dd6e30bc34fdc8839526374c1a05bd69ab6150a01875f02a8a4c96cb933df",
+    "validationOk": true,
+    "width": 1536
+  },
+  "cells": [
+    {
+      "alphaBbox": [
+        65,
+        103,
+        127,
+        195
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 0
+    },
+    {
+      "alphaBbox": [
+        66,
+        105,
+        129,
+        195
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 0
+    },
+    {
+      "alphaBbox": [
+        65,
+        105,
+        127,
+        195
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 0
+    },
+    {
+      "alphaBbox": [
+        65,
+        104,
+        127,
+        195
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 0
+    },
+    {
+      "alphaBbox": [
+        65,
+        105,
+        127,
+        195
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 0
+    },
+    {
+      "alphaBbox": [
+        66,
+        105,
+        129,
+        195
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 0
+    },
+    {
+      "alphaBbox": null,
+      "column": 6,
+      "expected": "blank",
+      "row": 0
+    },
+    {
+      "alphaBbox": null,
+      "column": 7,
+      "expected": "blank",
+      "row": 0
+    },
+    {
+      "alphaBbox": [
+        45,
+        99,
+        133,
+        183
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 1
+    },
+    {
+      "alphaBbox": [
+        46,
+        103,
+        132,
+        187
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 1
+    },
+    {
+      "alphaBbox": [
+        57,
+        104,
+        122,
+        194
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 1
+    },
+    {
+      "alphaBbox": [
+        57,
+        106,
+        123,
+        195
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 1
+    },
+    {
+      "alphaBbox": [
+        50,
+        99,
+        138,
+        184
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 1
+    },
+    {
+      "alphaBbox": [
+        51,
+        105,
+        140,
+        187
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 1
+    },
+    {
+      "alphaBbox": [
+        57,
+        106,
+        122,
+        195
+      ],
+      "column": 6,
+      "expected": "populated",
+      "row": 1
+    },
+    {
+      "alphaBbox": [
+        61,
+        103,
+        123,
+        194
+      ],
+      "column": 7,
+      "expected": "populated",
+      "row": 1
+    },
+    {
+      "alphaBbox": [
+        59,
+        99,
+        147,
+        183
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 2
+    },
+    {
+      "alphaBbox": [
+        60,
+        103,
+        146,
+        186
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 2
+    },
+    {
+      "alphaBbox": [
+        70,
+        104,
+        135,
+        194
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 2
+    },
+    {
+      "alphaBbox": [
+        69,
+        106,
+        135,
+        196
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 2
+    },
+    {
+      "alphaBbox": [
+        54,
+        99,
+        142,
+        184
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 2
+    },
+    {
+      "alphaBbox": [
+        52,
+        105,
+        141,
+        186
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 2
+    },
+    {
+      "alphaBbox": [
+        70,
+        106,
+        135,
+        195
+      ],
+      "column": 6,
+      "expected": "populated",
+      "row": 2
+    },
+    {
+      "alphaBbox": [
+        69,
+        103,
+        131,
+        194
+      ],
+      "column": 7,
+      "expected": "populated",
+      "row": 2
+    },
+    {
+      "alphaBbox": [
+        68,
+        103,
+        127,
+        195
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 3
+    },
+    {
+      "alphaBbox": [
+        39,
+        105,
+        127,
+        195
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 3
+    },
+    {
+      "alphaBbox": [
+        37,
+        104,
+        127,
+        195
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 3
+    },
+    {
+      "alphaBbox": [
+        44,
+        104,
+        127,
+        195
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 3
+    },
+    {
+      "alphaBbox": null,
+      "column": 4,
+      "expected": "blank",
+      "row": 3
+    },
+    {
+      "alphaBbox": null,
+      "column": 5,
+      "expected": "blank",
+      "row": 3
+    },
+    {
+      "alphaBbox": null,
+      "column": 6,
+      "expected": "blank",
+      "row": 3
+    },
+    {
+      "alphaBbox": null,
+      "column": 7,
+      "expected": "blank",
+      "row": 3
+    },
+    {
+      "alphaBbox": [
+        65,
+        107,
+        127,
+        193
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 4
+    },
+    {
+      "alphaBbox": [
+        65,
+        101,
+        128,
+        195
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 4
+    },
+    {
+      "alphaBbox": [
+        57,
+        80,
+        138,
+        181
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 4
+    },
+    {
+      "alphaBbox": [
+        63,
+        109,
+        131,
+        192
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 4
+    },
+    {
+      "alphaBbox": [
+        65,
+        107,
+        127,
+        193
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 4
+    },
+    {
+      "alphaBbox": null,
+      "column": 5,
+      "expected": "blank",
+      "row": 4
+    },
+    {
+      "alphaBbox": null,
+      "column": 6,
+      "expected": "blank",
+      "row": 4
+    },
+    {
+      "alphaBbox": null,
+      "column": 7,
+      "expected": "blank",
+      "row": 4
+    },
+    {
+      "alphaBbox": [
+        65,
+        103,
+        127,
+        195
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 5
+    },
+    {
+      "alphaBbox": [
+        65,
+        111,
+        128,
+        195
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 5
+    },
+    {
+      "alphaBbox": [
+        60,
+        132,
+        133,
+        190
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 5
+    },
+    {
+      "alphaBbox": [
+        37,
+        131,
+        153,
+        189
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 5
+    },
+    {
+      "alphaBbox": [
+        32,
+        137,
+        153,
+        189
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 5
+    },
+    {
+      "alphaBbox": [
+        26,
+        141,
+        149,
+        191
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 5
+    },
+    {
+      "alphaBbox": [
+        31,
+        150,
+        155,
+        193
+      ],
+      "column": 6,
+      "expected": "populated",
+      "row": 5
+    },
+    {
+      "alphaBbox": [
+        30,
+        155,
+        153,
+        193
+      ],
+      "column": 7,
+      "expected": "populated",
+      "row": 5
+    },
+    {
+      "alphaBbox": [
+        65,
+        103,
+        127,
+        195
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 6
+    },
+    {
+      "alphaBbox": [
+        65,
+        104,
+        127,
+        195
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 6
+    },
+    {
+      "alphaBbox": [
+        65,
+        106,
+        127,
+        195
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 6
+    },
+    {
+      "alphaBbox": [
+        65,
+        109,
+        127,
+        195
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 6
+    },
+    {
+      "alphaBbox": [
+        65,
+        112,
+        127,
+        195
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 6
+    },
+    {
+      "alphaBbox": [
+        65,
+        113,
+        127,
+        195
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 6
+    },
+    {
+      "alphaBbox": null,
+      "column": 6,
+      "expected": "blank",
+      "row": 6
+    },
+    {
+      "alphaBbox": null,
+      "column": 7,
+      "expected": "blank",
+      "row": 6
+    },
+    {
+      "alphaBbox": [
+        65,
+        103,
+        127,
+        195
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 7
+    },
+    {
+      "alphaBbox": [
+        63,
+        105,
+        122,
+        194
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 7
+    },
+    {
+      "alphaBbox": [
+        67,
+        104,
+        124,
+        193
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 7
+    },
+    {
+      "alphaBbox": [
+        57,
+        104,
+        122,
+        194
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 7
+    },
+    {
+      "alphaBbox": [
+        63,
+        104,
+        125,
+        194
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 7
+    },
+    {
+      "alphaBbox": [
+        65,
+        103,
+        127,
+        195
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 7
+    },
+    {
+      "alphaBbox": null,
+      "column": 6,
+      "expected": "blank",
+      "row": 7
+    },
+    {
+      "alphaBbox": null,
+      "column": 7,
+      "expected": "blank",
+      "row": 7
+    },
+    {
+      "alphaBbox": [
+        65,
+        103,
+        127,
+        195
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 8
+    },
+    {
+      "alphaBbox": [
+        65,
+        105,
+        127,
+        195
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 8
+    },
+    {
+      "alphaBbox": [
+        64,
+        105,
+        127,
+        195
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 8
+    },
+    {
+      "alphaBbox": [
+        64,
+        104,
+        127,
+        195
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 8
+    },
+    {
+      "alphaBbox": [
+        65,
+        104,
+        127,
+        195
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 8
+    },
+    {
+      "alphaBbox": [
+        65,
+        103,
+        127,
+        195
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 8
+    },
+    {
+      "alphaBbox": null,
+      "column": 6,
+      "expected": "blank",
+      "row": 8
+    },
+    {
+      "alphaBbox": null,
+      "column": 7,
+      "expected": "blank",
+      "row": 8
+    },
+    {
+      "alphaBbox": [
+        65,
+        106,
+        127,
+        195
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 9
+    },
+    {
+      "alphaBbox": [
+        67,
+        107,
+        130,
+        195
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 9
+    },
+    {
+      "alphaBbox": [
+        68,
+        108,
+        131,
+        195
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 9
+    },
+    {
+      "alphaBbox": [
+        68,
+        111,
+        131,
+        195
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 9
+    },
+    {
+      "alphaBbox": [
+        66,
+        111,
+        129,
+        195
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 9
+    },
+    {
+      "alphaBbox": [
+        65,
+        111,
+        128,
+        195
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 9
+    },
+    {
+      "alphaBbox": [
+        64,
+        111,
+        127,
+        195
+      ],
+      "column": 6,
+      "expected": "populated",
+      "row": 9
+    },
+    {
+      "alphaBbox": [
+        65,
+        111,
+        128,
+        195
+      ],
+      "column": 7,
+      "expected": "populated",
+      "row": 9
+    },
+    {
+      "alphaBbox": [
+        65,
+        111,
+        127,
+        195
+      ],
+      "column": 0,
+      "expected": "populated",
+      "row": 10
+    },
+    {
+      "alphaBbox": [
+        68,
+        111,
+        131,
+        195
+      ],
+      "column": 1,
+      "expected": "populated",
+      "row": 10
+    },
+    {
+      "alphaBbox": [
+        65,
+        111,
+        132,
+        195
+      ],
+      "column": 2,
+      "expected": "populated",
+      "row": 10
+    },
+    {
+      "alphaBbox": [
+        65,
+        112,
+        131,
+        195
+      ],
+      "column": 3,
+      "expected": "populated",
+      "row": 10
+    },
+    {
+      "alphaBbox": [
+        64,
+        111,
+        129,
+        195
+      ],
+      "column": 4,
+      "expected": "populated",
+      "row": 10
+    },
+    {
+      "alphaBbox": [
+        64,
+        111,
+        127,
+        195
+      ],
+      "column": 5,
+      "expected": "populated",
+      "row": 10
+    },
+    {
+      "alphaBbox": [
+        64,
+        109,
+        126,
+        195
+      ],
+      "column": 6,
+      "expected": "populated",
+      "row": 10
+    },
+    {
+      "alphaBbox": [
+        64,
+        107,
+        127,
+        195
+      ],
+      "column": 7,
+      "expected": "populated",
+      "row": 10
+    }
+  ],
+  "renderer": {
+    "browser": "chrome.exe",
+    "inputPngSha256": "0b1709024cd3667a7cf9e06aee98af0b51b654cb418af0a105daf3646779d777",
+    "threeRevision": "185",
+    "webglRenderer": "WebKit WebGL"
+  },
+  "schemaVersion": 1,
+  "source": {
+    "license": "CC0-1.0",
+    "model": "artwork/source/RobotExpressive.glb",
+    "modelSha256": "047f5e5fb3bb6d378bd1df16ca6137f2a596c99b3a1b5690b4020c05aaf6f319",
+    "upstreamCommit": "eba30de865cfbf31ac736f792defd9a60ff28d57",
+    "upstreamPath": "examples/models/gltf/RobotExpressive/RobotExpressive.glb",
+    "upstreamRepository": "https://github.com/mrdoob/three.js"
+  }
+}

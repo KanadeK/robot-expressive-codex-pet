@@ -1,0 +1,46 @@
+name: Bug report
+description: Report a validator, installer, packaging, preview, or pet runtime problem.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not paste tokens, private Codex configuration, or personal directory listings.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Pet animation
+        - Validation
+        - Installation or backup
+        - Packaging or checksums
+        - Pages animation lab
+        - Documentation
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Include the exact command, exit code, and safe error text.
+      placeholder: |
+        Command:
+        Exit code:
+        Output:
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: Windows 11, Python 3.13, Codex desktop
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true

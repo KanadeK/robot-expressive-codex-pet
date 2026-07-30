@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If this project helps you, please cite it using this metadata."
+title: "RobotExpressive Codex Pet"
+type: software
+version: 0.1.0
+date-released: 2026-07-30
+authors:
+  - family-names: "KanadeK"
+repository-code: "https://github.com/KanadeK/robot-expressive-codex-pet"
+url: "https://kanadek.github.io/robot-expressive-codex-pet/"
+license: MIT
+abstract: >-
+  A reproducible Codex v2 desktop pet adaptation of the CC0 RobotExpressive
+  model from three.js, with an offline animation renderer, strict validation,
+  deterministic packaging, transactional installation, tests, and release
+  automation.
+keywords:
+  - codex-pet
+  - three.js
+  - RobotExpressive
+  - desktop-pet
+  - reproducible-rendering

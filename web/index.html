@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Run every animation and look direction from the verified CC0 RobotExpressive Codex v2 pet atlas."
+    >
+    <meta name="theme-color" content="#17171b">
+    <title>RobotExpressive Codex Pet Lab</title>
+    <link rel="stylesheet" href="site.css">
+    <script src="site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#lab">Skip to animation controls</a>
+    <header class="topbar">
+      <a class="wordmark" href="./" aria-label="RobotExpressive Codex Pet home">
+        <span>RobotExpressive</span>
+        <span class="wordmark-muted">Codex Pet</span>
+      </a>
+      <nav aria-label="Primary">
+        <a href="#lab">Animation lab</a>
+        <a href="https://github.com/KanadeK/robot-expressive-codex-pet">Source</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">The CC0 three.js character, alive in Codex</p>
+          <h1 id="hero-title">A robot that reads the room.</h1>
+          <p class="hero-summary">
+            Nine task-aware animations. Sixteen gaze directions. One verified
+            open-source animation pipeline.
+          </p>
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              href="https://github.com/KanadeK/robot-expressive-codex-pet/releases/latest"
+            >Download</a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/KanadeK/robot-expressive-codex-pet#install-the-pet"
+            >Install guide</a>
+          </div>
+        </div>
+
+        <div class="pet-stage" aria-live="polite">
+          <div class="stage-header">
+            <span id="stage-state">Loading atlas</span>
+            <span id="stage-frame">Please wait</span>
+          </div>
+          <canvas
+            id="pet-canvas"
+            width="384"
+            height="416"
+            aria-label="Animated RobotExpressive sprite preview"
+          >
+            Your browser does not support canvas.
+          </canvas>
+          <p id="atlas-status" class="status">Reading the verified release atlas.</p>
+        </div>
+      </section>
+
+      <section id="lab" class="lab" aria-labelledby="lab-title">
+        <div class="lab-heading">
+          <h2 id="lab-title">Direct the real atlas.</h2>
+          <p>
+            Every control selects exact cells from the shipped 8 by 11 sprite
+            sheet. Nothing here is a mock animation.
+          </p>
+        </div>
+
+        <div class="lab-grid">
+          <div class="state-panel">
+            <h3>Task state</h3>
+            <div id="state-controls" class="state-controls" role="group" aria-label="Animation state">
+              <button type="button" data-state="idle" aria-pressed="true">Idle</button>
+              <button type="button" data-state="running-right" aria-pressed="false">Travel right</button>
+              <button type="button" data-state="running-left" aria-pressed="false">Travel left</button>
+              <button type="button" data-state="waving" aria-pressed="false">Wave</button>
+              <button type="button" data-state="jumping" aria-pressed="false">Jump</button>
+              <button type="button" data-state="failed" aria-pressed="false">Failed</button>
+              <button type="button" data-state="waiting" aria-pressed="false">Needs input</button>
+              <button type="button" data-state="running" aria-pressed="false">Working</button>
+              <button type="button" data-state="review" aria-pressed="false">Reviewing</button>
+            </div>
+            <button id="motion-toggle" class="motion-toggle" type="button">Pause motion</button>
+          </div>
+
+          <div class="direction-panel">
+            <h3>Pointer direction</h3>
+            <output id="direction-output" for="direction-slider">000 degrees, up</output>
+            <input
+              id="direction-slider"
+              type="range"
+              min="0"
+              max="15"
+              value="0"
+              step="1"
+              aria-label="RobotExpressive look direction"
+            >
+            <div class="direction-axis" aria-hidden="true">
+              <span>Up</span>
+              <span>Right</span>
+              <span>Down</span>
+              <span>Left</span>
+              <span>Up</span>
+            </div>
+            <p>
+              Move the slider to inspect all sixteen clockwise poses. Returning
+              to a task state resumes that animation.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof" aria-labelledby="proof-title">
+        <div>
+          <h2 id="proof-title">Built to fail loudly.</h2>
+          <p>
+            Invalid dimensions, blank required frames, dirty transparent pixels,
+            unsafe archives, and nondeterministic packages stop the release.
+          </p>
+        </div>
+        <dl>
+          <div>
+            <dt>9</dt>
+            <dd>semantic task states</dd>
+          </div>
+          <div>
+            <dt>16</dt>
+            <dd>clockwise look poses</dd>
+          </div>
+          <div>
+            <dt id="validation-verdict">Checking</dt>
+            <dd>release validation</dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        RobotExpressive was modeled by Tomás Laulhé and modified by Don
+        McCurdy. Model and rendered visuals use CC0 1.0; code uses MIT.
+      </p>
+      <a href="https://github.com/mrdoob/three.js/tree/eba30de865cfbf31ac736f792defd9a60ff28d57/examples/models/gltf/RobotExpressive">Pinned model source</a>
+    </footer>
+  </body>
+</html>

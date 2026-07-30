@@ -1,0 +1,19 @@
+{
+  "name": "robot-expressive-codex-pet-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.9.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "render": "node scripts/render_atlas.mjs",
+    "render:check": "node --check scripts/render_atlas.mjs && node --check scripts/check_site.mjs",
+    "test:site": "node scripts/check_site.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.62.0",
+    "three": "0.185.1"
+  }
+}

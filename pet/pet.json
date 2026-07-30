@@ -1,0 +1,7 @@
+{
+  "id": "robot-expressive",
+  "displayName": "RobotExpressive / 表情机器人",
+  "description": "The expressive three.js robot runs, waves, jumps, reviews, and keeps Codex company.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}

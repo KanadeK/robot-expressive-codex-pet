@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "character": {
+    "name": "RobotExpressive",
+    "existing_character": true,
+    "origin": "three.js official example model",
+    "model_author": "Tomás Laulhé",
+    "modifications_by": "Don McCurdy"
+  },
+  "source": {
+    "repository": "https://github.com/mrdoob/three.js",
+    "commit": "eba30de865cfbf31ac736f792defd9a60ff28d57",
+    "path": "examples/models/gltf/RobotExpressive/RobotExpressive.glb",
+    "readme": "https://github.com/mrdoob/three.js/blob/eba30de865cfbf31ac736f792defd9a60ff28d57/examples/models/gltf/RobotExpressive/README.md",
+    "local_copy": "artwork/source/RobotExpressive.glb",
+    "sha256": "047f5e5fb3bb6d378bd1df16ca6137f2a596c99b3a1b5690b4020c05aaf6f319",
+    "bytes": 463988,
+    "license": "CC0-1.0"
+  },
+  "render": {
+    "method": "Offline skeletal-animation sampling with Three.js and Playwright",
+    "generative_ai_used": false,
+    "recipe": "artwork/RENDERING.md",
+    "report": "artwork/RENDER_REPORT.json",
+    "output": "pet/spritesheet.webp",
+    "animation_clips": [
+      "Idle",
+      "Running",
+      "Wave",
+      "Jump",
+      "Death",
+      "Sitting",
+      "Punch",
+      "ThumbsUp",
+      "Standing"
+    ]
+  },
+  "license_policy": {
+    "upstream_model": "CC0-1.0",
+    "rendered_visuals": "CC0-1.0",
+    "repository_code": "MIT"
+  },
+  "non_endorsement": "Independent community project; no endorsement by the upstream authors, three.js maintainers, or OpenAI is implied."
+}
