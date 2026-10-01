@@ -12,8 +12,8 @@ importers:
         specifier: 1.62.0
         version: 1.62.0
       three:
-        specifier: 0.185.1
-        version: 0.185.1
+        specifier: 0.186.1
+        version: 0.186.1
 
 packages:
 
@@ -32,8 +32,8 @@ packages:
     engines: {node: '>=20'}
     hasBin: true
 
-  three@0.185.1:
-    resolution: {integrity: sha512-5aojFCXKwnjBRZvUnt3WFfEcvUJgkN5LlijRFN95hMy8WVkG4I0QNcJE+OuWvuJ0bOdStrbfXn0pkd6/QyiAlg==}
+  three@0.186.1:
+    resolution: {integrity: sha512-blFeqb49wRCSGUGj7gtpfnSGHy2lwDk94RhUmS1c/hTby70kvChbWpkJ4Pm1390LqzzvTmzgXKHPEafJwCb8jA==}
 
 snapshots:
 
@@ -48,4 +48,4 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  three@0.185.1: {}
+  three@0.186.1: {}
